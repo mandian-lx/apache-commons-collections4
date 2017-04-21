@@ -15,8 +15,11 @@ BuildRequires:  maven-local
 BuildRequires:  mvn(junit:junit)
 BuildRequires:  mvn(org.apache.commons:commons-parent:pom:)
 BuildRequires:  mvn(org.apache.maven.plugins:maven-antrun-plugin)
+BuildRequires:  mvn(org.apache.maven.plugins:maven-site-plugin)
 BuildRequires:  mvn(org.apache.maven.wagon:wagon-ssh)
 BuildRequires:  mvn(org.easymock:easymock)
+
+
 %description
 Commons-Collections seek to build upon the JDK classes by providing
 new interfaces, implementations and utilities.
